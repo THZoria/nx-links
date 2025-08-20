@@ -1,23 +1,53 @@
-from codeberg import CodebergModule
+import os
+import re
 import requests
 
-class Ams_cfw(CodebergModule):
+OWNER = "THZoria"
+REPO = "AtmoPackVanilla"
+BASE = f"https://api.github.com/repos/{OWNER}/{REPO}"
+
+PATTERN = re.compile(r".*AtmoPack[- ]?Vanilla.*\.zip", re.IGNORECASE)
+
+def gh_headers():
+    h = {"Accept": "application/vnd.github+json"}
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        h["Authorization"] = f"Bearer {token}"
+    return h
+
+def get_latest_release():
+    r = requests.get(f"{BASE}/releases/latest", headers=gh_headers(), timeout=30)
+    if r.status_code == 404:
+        return None
+    r.raise_for_status()
+    return r.json()
+
+def pick_zip_asset(release):
+    if not release:
+        return None
+    for a in release.get("assets", []):
+        name = a.get("name")
+        url = a.get("browser_download_url")
+        if name and url and PATTERN.search(name):
+            return a
+    return None
+
+class Ams_cfw:
     def __init__(self):
-        self.config = [
-            {
-                "username": "Zoria",
-                "reponame": "AmoPack-Vanilla",
-                "assetPatterns": [".*AtmoPack-Vanilla.*\\.zip"]
-            }
-        ]
-        CodebergModule.__init__(self)
+        self.out = {}
 
     def handle_module(self):
-        for i in range(len(self.config)):
-            release = self.get_latest_release(i)
-            if release is not None:
-                assets = self.get_asset_links(release, i)
-                for asset in assets:
-                    self.out[release.get("name")] = asset.get("browser_download_url")
-                self.out["version"] = release.get("tag_name")
+        rel = get_latest_release()
+        if not rel:
+            print("No available releases for: THZoria / AtmoPackVanilla")
+            return
 
+        asset = pick_zip_asset(rel)
+        if not asset:
+            print("No matching asset for: THZoria / AtmoPackVanilla")
+            return
+
+        # clé = NOM DE LA RELEASE (comme avant) ; valeur = URL
+        release_name = rel.get("name") or rel.get("tag_name") or "AtmoPackVanilla"
+        self.out[release_name] = asset.get("browser_download_url")
+        self.out["version"] = rel.get("tag_name")
