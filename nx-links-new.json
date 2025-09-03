@@ -1,13 +1,14 @@
 {
     "ams_cfw": {
-        "AtmoPack-Vanilla AMS 1.9.3 - FW 20.3.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/3.0.6/AtmoPack-Vanilla_Latest.zip",
-        "version": "3.0.6"
+        "AtmoPack-Vanilla AMS 1.9.4 - FW 20.4.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/3.0.7/AtmoPack-Vanilla_Latest.zip",
+        "version": "3.0.7"
     },
     "sigpatches": {
         "sigpatches": "sigmapatches.coomer.party/sigpatches.zip?latest",
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 20.4.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.4.0/Firmware.20.4.0.zip",
         "Firmware 20.3.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.3.0/Firmware.20.3.0.zip",
         "Firmware 20.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.2.0/Firmware.20.2.0.zip",
         "Firmware 20.1.5": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.5/Firmware.20.1.5.zip",
@@ -98,8 +99,8 @@
     "homebrew": {
         "dbi": {
             "name": "dbi",
-            "link": "https://github.com/rashevskyv/dbi/releases/download/796ru/DBI.nro",
-            "version": "796ru",
+            "link": "https://github.com/rashevskyv/dbi/releases/download/807ru/DBI.nro",
+            "version": "807ru",
             "homebrew": true
         },
         "EdiZon": {
@@ -128,8 +129,8 @@
         },
         "JKSV": {
             "name": "JKSV",
-            "link": "https://github.com/J-D-K/JKSV/releases/download/11/05/2024/JKSV.nro",
-            "version": "11/05/2024",
+            "link": "https://github.com/J-D-K/JKSV/releases/download/08/25/2025/JKSV.nro",
+            "version": "08/25/2025",
             "homebrew": true
         },
         "NX-Activity-Log": {
@@ -158,8 +159,8 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.4/MissionControl-0.13.4-master-2af29931.zip",
-            "version": "v0.13.4",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.5/MissionControl-0.13.5-master-0aca4ab2.zip",
+            "version": "v0.13.5",
             "homebrew": false
         },
         "SysDVR": {
