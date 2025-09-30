@@ -8,6 +8,7 @@
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 20.5.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.5.0/Firmware.20.5.0.zip",
         "Firmware 20.4.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.4.0/Firmware.20.4.0.zip",
         "Firmware 20.3.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.3.0/Firmware.20.3.0.zip",
         "Firmware 20.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.2.0/Firmware.20.2.0.zip",
@@ -99,8 +100,8 @@
     "homebrew": {
         "dbi": {
             "name": "dbi",
-            "link": "https://github.com/rashevskyv/dbi/releases/download/807ru/DBI.nro",
-            "version": "807ru",
+            "link": "https://github.com/rashevskyv/dbi/releases/download/814ru/DBI.nro",
+            "version": "814ru",
             "homebrew": true
         },
         "EdiZon": {
@@ -129,8 +130,8 @@
         },
         "JKSV": {
             "name": "JKSV",
-            "link": "https://github.com/J-D-K/JKSV/releases/download/08/25/2025/JKSV.nro",
-            "version": "08/25/2025",
+            "link": "https://github.com/J-D-K/JKSV/releases/download/09/13/2025/JKSV.nro",
+            "version": "09/13/2025",
             "homebrew": true
         },
         "NX-Activity-Log": {
