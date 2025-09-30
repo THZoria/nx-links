@@ -1,7 +1,7 @@
 {
     "ams_cfw": {
-        "AtmoPack-Vanilla AMS 1.9.4 - FW 20.4.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/3.0.7/AtmoPack-Vanilla_Latest.zip",
-        "version": "3.0.7"
+        "AtmoPack-Vanilla AMS 1.9.5 - FW 20.5.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/3.0.8/AtmoPack-Vanilla_Latest.zip",
+        "version": "3.0.8"
     },
     "sigpatches": {
         "sigpatches": "sigmapatches.coomer.party/sigpatches.zip?latest",
