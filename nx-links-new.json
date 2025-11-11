@@ -8,6 +8,7 @@
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 21.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip",
         "Firmware 20.5.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.5.0/Firmware.20.5.0.zip",
         "Firmware 20.4.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.4.0/Firmware.20.4.0.zip",
         "Firmware 20.3.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.3.0/Firmware.20.3.0.zip",
@@ -100,8 +101,8 @@
     "homebrew": {
         "dbi": {
             "name": "dbi",
-            "link": "https://github.com/rashevskyv/dbi/releases/download/814ru/DBI.nro",
-            "version": "814ru",
+            "link": "https://github.com/rashevskyv/dbi/releases/download/831ru/DBI.nro",
+            "version": "831ru",
             "homebrew": true
         },
         "EdiZon": {
@@ -160,8 +161,8 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.5/MissionControl-0.13.5-master-0aca4ab2.zip",
-            "version": "v0.13.5",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.6/MissionControl-0.13.6-master-9f7e7710.zip",
+            "version": "v0.13.6",
             "homebrew": false
         },
         "SysDVR": {
