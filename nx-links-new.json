@@ -1,13 +1,14 @@
 {
     "ams_cfw": {
-        "AtmoPack-Vanilla AMS 1.9.5 - FW 20.5.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/3.0.8/AtmoPack-Vanilla_Latest.zip",
-        "version": "3.0.8"
+        "AtmoPack-Vanilla AMS 1.10.0 - FW 21.0.1": "https://github.com/THZoria/AtmoPackVanilla/releases/download/4.0.1/AtmoPack-Vanilla_Latest.zip",
+        "version": "4.0.1"
     },
     "sigpatches": {
         "sigpatches": "sigmapatches.coomer.party/sigpatches.zip?latest",
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 21.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.1/Firmware.21.0.1.zip",
         "Firmware 21.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip",
         "Firmware 20.5.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.5.0/Firmware.20.5.0.zip",
         "Firmware 20.4.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.4.0/Firmware.20.4.0.zip",
@@ -101,8 +102,8 @@
     "homebrew": {
         "dbi": {
             "name": "dbi",
-            "link": "https://github.com/rashevskyv/dbi/releases/download/831ru/DBI.nro",
-            "version": "831ru",
+            "link": "https://github.com/rashevskyv/dbi/releases/download/849ru/DBI.nro",
+            "version": "849ru",
             "homebrew": true
         },
         "EdiZon": {
@@ -125,14 +126,14 @@
         },
         "Hekate-Toolbox": {
             "name": "Hekate-Toolbox",
-            "link": "https://github.com/WerWolv/Hekate-Toolbox/releases/download/v4.0.3/HekateToolbox.nro",
-            "version": "v4.0.3",
+            "link": "https://github.com/WerWolv/Hekate-Toolbox/releases/download/v4.0.4/HekateToolbox.nro",
+            "version": "v4.0.4",
             "homebrew": true
         },
         "JKSV": {
             "name": "JKSV",
-            "link": "https://github.com/J-D-K/JKSV/releases/download/09/13/2025/JKSV.nro",
-            "version": "09/13/2025",
+            "link": "https://github.com/J-D-K/JKSV/releases/download/12/02/2025/JKSV.nro",
+            "version": "12/02/2025",
             "homebrew": true
         },
         "NX-Activity-Log": {
@@ -161,14 +162,14 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.6/MissionControl-0.13.6-master-9f7e7710.zip",
-            "version": "v0.13.6",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.14.0/MissionControl-0.14.0-master-41606c08.zip",
+            "version": "v0.14.0",
             "homebrew": false
         },
         "SysDVR": {
             "name": "SysDVR",
-            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.2.1/SysDVR.zip",
-            "version": "v6.2.1",
+            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.2.2/SysDVR.zip",
+            "version": "v6.2.2",
             "homebrew": false
         },
         "nx-ovlloader": {
@@ -185,14 +186,14 @@
         },
         "fastCFWswitch": {
             "name": "fastCFWswitch",
-            "link": "https://github.com/Hartie95/fastCFWswitch/releases/download/v1.3.1/fastCFWswitch_1.3.1.zip",
-            "version": "v1.3.1",
+            "link": "https://github.com/Hartie95/fastCFWswitch/releases/download/v1.3.2/fastCFWswitch_1.3.2.zip",
+            "version": "v1.3.2",
             "homebrew": false
         },
         "sys-tune": {
             "name": "sys-tune",
-            "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
-            "version": "v2.0.0",
+            "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.1.0-beta.1/sys-tune-2.1.0-2a6c31c.zip",
+            "version": "v2.1.0-beta.1",
             "homebrew": false
         }
     },
