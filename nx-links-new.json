@@ -1,13 +1,14 @@
 {
     "ams_cfw": {
-        "AtmoPack-Vanilla AMS 1.10.0 - FW 21.0.1": "https://github.com/THZoria/AtmoPackVanilla/releases/download/4.0.1/AtmoPack-Vanilla_Latest.zip",
-        "version": "4.0.1"
+        "AtmoPack-Vanilla AMS 1.10.1 - FW 21.1.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/4.0.2/AtmoPack-Vanilla_Latest.zip",
+        "version": "4.0.2"
     },
     "sigpatches": {
         "sigpatches": "sigmapatches.coomer.party/sigpatches.zip?latest",
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 21.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip",
         "Firmware 21.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.1/Firmware.21.0.1.zip",
         "Firmware 21.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip",
         "Firmware 20.5.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.5.0/Firmware.20.5.0.zip",
@@ -150,8 +151,8 @@
         },
         "SimpleModDownloader": {
             "name": "SimpleModDownloader",
-            "link": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.2.0/SimpleModDownloader.nro",
-            "version": "2.2.0",
+            "link": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.3.0/SimpleModDownloader.nro",
+            "version": "2.3.0",
             "homebrew": true
         },
         "SimpleModManager": {
