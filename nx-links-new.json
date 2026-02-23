@@ -1,13 +1,14 @@
 {
     "ams_cfw": {
-        "AtmoPack-Vanilla AMS 1.10.1 - FW 21.1.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/4.0.2/AtmoPack-Vanilla_Latest.zip",
-        "version": "4.0.2"
+        "AtmoPack-Vanilla AMS 1.10.2 - FW 21.2.0": "https://github.com/THZoria/AtmoPackVanilla/releases/download/4.0.3/AtmoPack-Vanilla_Latest.zip",
+        "version": "4.0.3"
     },
     "sigpatches": {
         "sigpatches": "sigmapatches.coomer.party/sigpatches.zip?latest",
         "version": "latest"
     },
     "firmwares": {
+        "Firmware 21.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.2.0/Firmware_21.2.0.zip",
         "Firmware 21.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip",
         "Firmware 21.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.1/Firmware.21.0.1.zip",
         "Firmware 21.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip",
@@ -103,8 +104,8 @@
     "homebrew": {
         "dbi": {
             "name": "dbi",
-            "link": "https://github.com/rashevskyv/dbi/releases/download/849ru/DBI.nro",
-            "version": "849ru",
+            "link": "https://github.com/rashevskyv/dbi/releases/download/871ru/DBI.nro",
+            "version": "871ru",
             "homebrew": true
         },
         "EdiZon": {
@@ -163,14 +164,14 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.14.0/MissionControl-0.14.0-master-41606c08.zip",
-            "version": "v0.14.0",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.14.2/MissionControl-0.14.2-master-e8d4623c.zip",
+            "version": "v0.14.2",
             "homebrew": false
         },
         "SysDVR": {
             "name": "SysDVR",
-            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.2.2/SysDVR.zip",
-            "version": "v6.2.2",
+            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.3/SysDVR.zip",
+            "version": "v6.3",
             "homebrew": false
         },
         "nx-ovlloader": {
